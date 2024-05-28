@@ -10,9 +10,12 @@
                 <p class="home-current-score">0</p>
                 </div>
                 <div class="points-div">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="addHomeOne()" class="home-1">+1</button>
+                    <button onclick="addHomeTwo()" class="home-2">+2</button>
+                    <button onclick="addHomeThree()" class="home-3">+3</button>
+                </div>
+                <div class="reset-div">
+                    <button onclick="homeReset()" class="reset-btn">Reset</button>
                 </div>
             </div>
             <div class="sides-div">
@@ -21,9 +24,12 @@
                 <p class="guest-current-score">0</p>
                 </div>
                 <div class="points-div">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="addGuestOne()" class="guest-1">+1</button>
+                    <button onclick="addGuestTwo()" class="guest-2">+2</button>
+                    <button onclick="addGuestThree()" class="guest-3">+3</button>
+                </div>
+                <div class="reset-div">
+                    <button onclick="guestReset()" class="reset-btn">Reset</button>
                 </div>
             </div>
         </div>

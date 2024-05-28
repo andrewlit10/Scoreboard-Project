@@ -14,7 +14,7 @@ body {
     height: 350px;
     gap: 150px;
     padding: 75px;
-    background-color: rgb(61, 61, 94);
+    background-color: rgba(16, 16, 81, 0.879);
     color: white;
     
     
@@ -43,16 +43,20 @@ p {
     display: flex;
     gap: 10px;
 }
-.points-div button {
+.points-div button,
+.reset-btn {
     border: 1px solid white;
     border-radius: 15%;
     padding: 10px;
-    background-color: rgb(61, 61, 94);
+    background-color: rgba(16, 16, 81, 0.879);
     color: white;
     font-size: 24px;
     
 }
-
+.reset-btn {
+    width: 150px;
+    border-radius: 5%;
+}
 .sides-div {
     display: flex;
     flex-direction: column;
